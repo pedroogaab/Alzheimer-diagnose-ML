@@ -1,0 +1,10 @@
+Agrupei todos os dados pelo RID
+VISCODE = bl > primeira bateria de exame
+Removidas as colunas em que os valores eram predominantemente iguais > 90% dos valores
+Removidas as colunas que continham mais de 55% dos valores nulos
+Tratativa dos valores nulos no dataset {
+    Uso da moda para os valores categoricos
+    Uso da média para os valores continuos
+}
+Remoção manual das features inuteis (ID, DATAS...) e duplicadas
+Removidas as features menos relevantes com o Boruta
